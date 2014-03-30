@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface CCViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *myLabel;
+@property (strong, nonatomic) IBOutlet UILabel *realConversionLabel;
+@property (strong, nonatomic) IBOutlet UILabel *myLabelResult;
+@property (strong, nonatomic) IBOutlet UILabel *realConversionLabelResult;
+@property (strong, nonatomic) IBOutlet UITextField *myTextField;
+- (IBAction)myButton:(UIButton *)sender;
+- (IBAction)realDogYearConvertedPressed:(UIButton *)sender;
 
 @end

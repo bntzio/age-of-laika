@@ -21,6 +21,12 @@
 		CCB18CE618DC111300EABF0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB18CC818DC111300EABF0F /* UIKit.framework */; };
 		CCB18CEE18DC111300EABF0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCB18CEC18DC111300EABF0F /* InfoPlist.strings */; };
 		CCB18CF018DC111300EABF0F /* Age_of_LaikaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB18CEF18DC111300EABF0F /* Age_of_LaikaTests.m */; };
+		CCB18CFA18DC14B300EABF0F /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB18CF918DC14B300EABF0F /* JRT.jpg */; };
+		CCB18CFC18DC21A800EABF0F /* laika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB18CFB18DC21A800EABF0F /* laika.jpg */; };
+		CCB18CFE18DC234C00EABF0F /* Orange_pawprint.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB18CFD18DC234C00EABF0F /* Orange_pawprint.jpg */; };
+		CCB18D0018DC23C700EABF0F /* dog_paw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB18CFF18DC23C700EABF0F /* dog_paw.jpg */; };
+		CCB18D0218DC24C300EABF0F /* laika_pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB18D0118DC24C300EABF0F /* laika_pic.jpg */; };
+		CCB18D0418DC28DC00EABF0F /* space_violet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB18D0318DC28DC00EABF0F /* space_violet.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		CCB18CEB18DC111300EABF0F /* Age of LaikaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Age of LaikaTests-Info.plist"; sourceTree = "<group>"; };
 		CCB18CED18DC111300EABF0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCB18CEF18DC111300EABF0F /* Age_of_LaikaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Age_of_LaikaTests.m; sourceTree = "<group>"; };
+		CCB18CF918DC14B300EABF0F /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		CCB18CFB18DC21A800EABF0F /* laika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laika.jpg; sourceTree = "<group>"; };
+		CCB18CFD18DC234C00EABF0F /* Orange_pawprint.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orange_pawprint.jpg; sourceTree = "<group>"; };
+		CCB18CFF18DC23C700EABF0F /* dog_paw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog_paw.jpg; sourceTree = "<group>"; };
+		CCB18D0118DC24C300EABF0F /* laika_pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laika_pic.jpg; sourceTree = "<group>"; };
+		CCB18D0318DC28DC00EABF0F /* space_violet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space_violet.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +138,12 @@
 		CCB18CCB18DC111300EABF0F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CCB18D0318DC28DC00EABF0F /* space_violet.jpg */,
+				CCB18D0118DC24C300EABF0F /* laika_pic.jpg */,
+				CCB18CFF18DC23C700EABF0F /* dog_paw.jpg */,
+				CCB18CFD18DC234C00EABF0F /* Orange_pawprint.jpg */,
+				CCB18CFB18DC21A800EABF0F /* laika.jpg */,
+				CCB18CF918DC14B300EABF0F /* JRT.jpg */,
 				CCB18CCC18DC111300EABF0F /* Age of Laika-Info.plist */,
 				CCB18CCD18DC111300EABF0F /* InfoPlist.strings */,
 				CCB18CD018DC111300EABF0F /* main.m */,
@@ -230,7 +248,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCB18CDD18DC111300EABF0F /* Images.xcassets in Resources */,
+				CCB18D0218DC24C300EABF0F /* laika_pic.jpg in Resources */,
+				CCB18D0018DC23C700EABF0F /* dog_paw.jpg in Resources */,
 				CCB18CCF18DC111300EABF0F /* InfoPlist.strings in Resources */,
+				CCB18CFE18DC234C00EABF0F /* Orange_pawprint.jpg in Resources */,
+				CCB18CFA18DC14B300EABF0F /* JRT.jpg in Resources */,
+				CCB18D0418DC28DC00EABF0F /* space_violet.jpg in Resources */,
+				CCB18CFC18DC21A800EABF0F /* laika.jpg in Resources */,
 				CCB18CD818DC111300EABF0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
